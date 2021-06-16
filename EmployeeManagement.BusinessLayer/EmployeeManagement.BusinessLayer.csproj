@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeeManagement.DataAccessLayer\EmployeeManagement.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\EmployeeManagement.DataContracts\EmployeeManagement.DataContracts.csproj" />
+  </ItemGroup>
+
+</Project>
